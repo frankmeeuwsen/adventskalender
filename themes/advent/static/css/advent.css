@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+        h1 {
+            font-family: 'Berkshire Swash', cursive;
+            text-align: center;
+            color: #c41e3a;
+            /* Christmas red */
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            background: linear-gradient(135deg, transparent 20%, #e8f4ea 20%, #e8f4ea 80%, transparent 80%);
+        }
         .advent-calendar {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
