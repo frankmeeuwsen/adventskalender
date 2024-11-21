@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="advent-calendar">
+    {{ range (sort (where .Site.RegularPages "Section" "days") "Date") }}
+    {{ $doorDate := .Date.Format "2006-01-02" }}
+    {{ $today := now.Format "2006-01-02" }}
+    <article class="door" data-date="{{ $doorDate }}">
+        <h2>{{ .Title }}</h2>
+        <div class="door-content">
+            {{ .Content }}
+        </div>
+    </article>
+    {{ end }}
+</div>
+{{ end }}
