@@ -5,4 +5,4 @@ date: 2024-11-17
 draft: false
 ---
 
-🎄 Today's AI tip: Let ChatGPT help you write personalized holiday greetings for your loved ones! ❄️
+🎄 Today's AI tip: Let [ChatGPT](https://chat.com) help you write personalized holiday greetings for your loved ones! ❄️
