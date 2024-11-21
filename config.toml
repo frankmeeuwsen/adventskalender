@@ -1,5 +1,5 @@
 baseURL = 'https://aidventskalender.nl'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'De 2024 AIdventskalender!'
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 buildFuture = true
