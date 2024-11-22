@@ -1,69 +1,121 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
-        h1 {
-            font-family: 'Berkshire Swash', cursive;
-            text-align: center;
-            color: #c41e3a;
-            /* Christmas red */
-            font-size: 3rem;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-            padding: 20px;
-            background: linear-gradient(135deg, transparent 20%, #e8f4ea 20%, #e8f4ea 80%, transparent 80%);
-        }
-        .advent-calendar {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 20px;
-            padding: 20px;
-            max-width: 1000px;
-            margin: 0 auto;
-            background: #2c5530;
-            /* Christmas green background */
-            border-radius: 12px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-            position: relative;
-        }
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+    color: #c41e3a;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background: linear-gradient(135deg, transparent 20%, #e8f4ea 20%, #e8f4ea 80%, transparent 80%);
+}
 
-        .door {
-            aspect-ratio: 1;
-            perspective: 1000px;
-            position: relative;
-            max-width: 230px;
-            z-index: 1;
-            transition: z-index 0s 0.6s;
-        }
+.advent-calendar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #2c5530;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
 
-        .door h2 {
-            display: none;
-        }
+/* Mobile responsive styles */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        padding: 15px;
+    }
 
- .door::before {
-     content: attr(data-day);
-     position: absolute;
-     z-index: 2;
-     background: #c41e3a;
-     /* Christmas red */
-     width: 100%;
-     height: 100%;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     font-size: 2em;
-     font-weight: bold;
-     color: #fff;
-     border-radius: 8px;
-     box-shadow:
-         inset 2px 2px 2px rgba(255, 255, 255, 0.2),
-         inset -2px -2px 2px rgba(0, 0, 0, 0.2),
-         0 4px 8px rgba(0, 0, 0, 0.3);
-     /* Add depth shadow */
-     border: 2px solid #8b0000;
-     /* Thinner border */
-     cursor: pointer;
-     transition: background-color 0.3s;
-     backface-visibility: visible;
- }
+    .advent-calendar {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;
+        padding: 15px;
+        gap: 15px;
+    }
 
+    .door {
+        max-width: none;
+        width: 100%;
+        aspect-ratio: 1;
+    }
+
+    /* Remove the fixed max-width constraint for door content */
+    .door-content {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    /* Adjust font size for door numbers */
+    .door::before {
+        font-size: 2.5em;
+    }
+}
+
+/* Small mobile devices */
+@media screen and (max-width: 400px) {
+    .advent-calendar {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .door {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+
+/* Tablet responsive styles */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .advent-calendar {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 800px;
+    }
+}
+
+/* Rest of the CSS remains the same */
+.door {
+    aspect-ratio: 1;
+    perspective: 1000px;
+    position: relative;
+    max-width: 230px;
+    z-index: 1;
+    transition: z-index 0s 0.6s;
+}
+
+.door h2 {
+    display: none;
+}
+
+.door::before {
+    content: attr(data-day);
+    position: absolute;
+    z-index: 2;
+    background: #c41e3a;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow:
+        inset 2px 2px 2px rgba(255, 255, 255, 0.2),
+        inset -2px -2px 2px rgba(0, 0, 0, 0.2),
+        0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 2px solid #8b0000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    backface-visibility: visible;
+}
 
 .door-content {
     position: relative;
@@ -82,55 +134,23 @@
     box-shadow:
         inset 0 0 20px rgba(0, 0, 0, 0.1),
         0 4px 8px rgba(0, 0, 0, 0.2);
-    /* Add depth shadow */
 }
 
-        .door::before {
-            content: attr(data-day);
-            position: absolute;
-            z-index: 1;
-            background: #c41e3a;
-            /* Christmas red */
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2em;
-            font-weight: bold;
-            color: #fff;
-            border-radius: 8px;
-            box-shadow:
-                inset 2px 2px 2px rgba(255, 255, 255, 0.2),
-                inset -2px -2px 2px rgba(0, 0, 0, 0.2);
-            border: 4px solid #8b0000;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
+.door.open::before {
+    transform: rotateY(-120deg);
+    transform-origin: left;
+    transition: transform 0.6s;
+}
 
-        .door:not(.future)::before:hover {
-            background: #d42e4a;
-        }
+.door.open {
+    z-index: 10;
+    transition: z-index 0s 0s;
+}
 
-        .door.open::before {
-            transform: rotateY(-120deg);
-            transform-origin: left;
-            transition: transform 0.6s;
-        }
+.door.future {
+    cursor: not-allowed;
+}
 
-
-        /* When door is open, bring it to the front */
-        .door.open {
-            z-index: 10;
-            /* Higher z-index when open */
-            transition: z-index 0s 0s;
-            /* Immediate z-index change when opening */
-        }
-        .door.future {
-            cursor: not-allowed;
-        }
-
-/* Future (locked) doors */
 .door.future::before {
     background: #8b0000;
     cursor: not-allowed;
@@ -138,64 +158,46 @@
         inset 2px 2px 2px rgba(255, 255, 255, 0.1),
         inset -2px -2px 2px rgba(0, 0, 0, 0.2),
         0 2px 4px rgba(0, 0, 0, 0.4);
-    /* Slightly less prominent shadow for locked doors */
 }
 
-        .ai-highlight {
-            color: #6610f2;
-            font-weight: bold;
-        }
+.ai-highlight {
+    color: #6610f2;
+    font-weight: bold;
+}
 
-        /* Festive decorations */
-        /* .advent-calendar::before {
-            content: '';
-            position: absolute;
-            top: -20px;
-            left: 0;
-            right: 0;
-            height: 20px;
-            background: repeating-linear-gradient(45deg,
-                    #c41e3a,
-                    #c41e3a 10px,
-                    #ffffff 10px,
-                    #ffffff 20px);
-            border-radius: 12px 12px 0 0;
-        } */
+.star {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    border-radius: 50%;
+    animation: twinkle var(--twinkle-duration) ease-in-out infinite;
+    opacity: 0;
+    z-index: 200;
+}
 
-                /* Add the star styles */
-                .star {
-                    position: absolute;
-                    width: 8px;
-                    height: 8px;
-                    background: #fff;
-                    border-radius: 50%;
-                    animation: twinkle var(--twinkle-duration) ease-in-out infinite;
-                    opacity: 0;
-                    z-index: 200;
-                }
-        
-                .star::before {
-                    content: '';
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    width: 100%;
-                    height: 100%;
-                    background: inherit;
-                    border-radius: inherit;
-                    transform: translate(-50%, -50%) rotate(45deg);
-                }
-        
-                @keyframes twinkle {
-        
-                    0%,
-                    100% {
-                        opacity: 0;
-                        transform: scale(1);
-                    }
-        
-                    50% {
-                        opacity: 0.8;
-                        transform: scale(1.2);
-                    }
-                }
+.star::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: inherit;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+@keyframes twinkle {
+
+    0%,
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.8;
+        transform: scale(1.2);
+    }
+}
