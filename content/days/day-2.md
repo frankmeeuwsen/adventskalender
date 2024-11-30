@@ -1,7 +1,7 @@
 ---
 title: "Day 2"
-# date: 2024-12-02
-date: 2024-11-18
+date: 2024-12-02
+# date: 2024-11-18
 draft: false
 ---
 
