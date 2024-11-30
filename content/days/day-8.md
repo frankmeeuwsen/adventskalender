@@ -4,4 +4,4 @@ date: 2024-12-08
 draft: false
 ---
 
-🎅 Today's tip: Use AI to generate fun holiday-themed riddles for family games! 🎮
+🎅 Tip van vandaag: Gebruik AI om kerstquizzen te maken voor gezellige avonden! 🎮

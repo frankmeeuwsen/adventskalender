@@ -4,4 +4,4 @@ date: 2024-12-23
 draft: false
 ---
 
-⛄ Let AI help you write thank-you notes for your holiday gifts! ✍️
+⛄ Laat AI je helpen met het schrijven van dankbetuigingen voor je kerstcadeaus! ✍️

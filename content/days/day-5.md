@@ -4,4 +4,4 @@ date: 2024-12-05
 draft: false
 ---
 
-🦌 Let AI help you plan the perfect holiday party schedule! ✨
+🦌 Laat AI je helpen met het organiseren van je kerstfeestjes! 🎉

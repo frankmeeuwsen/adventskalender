@@ -4,4 +4,4 @@ date: 2024-12-22
 draft: false
 ---
 
-🎁 Use AI to create a holiday music playlist based on your taste! 🎵
+🎁 Maak een kerstmuziekplaylist met AI op basis van je muzieksmaak! 🎵

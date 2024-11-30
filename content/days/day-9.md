@@ -4,4 +4,4 @@ date: 2024-12-09
 draft: false
 ---
 
-🎄 Let AI help you craft the perfect holiday movie watchlist! 🎬
+🎄 Laat AI je helpen met het samenstellen van een kerstmuziekplaylist! 🎵

@@ -4,4 +4,4 @@ date: 2024-12-12
 draft: false
 ---
 
-🦌 AI can help track Santa's route - time to code your own Santa tracker? 🗺️
+🦌 AI kan je helpen met het volgen van de Kerstman op kerstavond! 🗺️

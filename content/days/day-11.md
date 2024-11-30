@@ -4,4 +4,4 @@ date: 2024-12-11
 draft: false
 ---
 
-🎁 Use AI to create a custom holiday decoration layout for your home! 🏠
+🎁 Gebruik AI om een perfecte kerstdecoratie voor je huis te ontwerpen! 🏠

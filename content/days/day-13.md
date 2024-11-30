@@ -4,4 +4,4 @@ date: 2024-12-13
 draft: false
 ---
 
-🎄 Generate festive color palettes with AI for your holiday decorations! 🎨
+🎄 Genereer festieve kleuren voor je kerstdecoraties met AI! 🎨

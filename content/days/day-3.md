@@ -1,7 +1,7 @@
 ---
 title: "Day 3"
 date: 2024-12-03
-# date: 2024-11-19
 draft: false
 ---
-![Santa](/days/images/day-3.gif)
+
+⛄ Leuk feit: AI kan je helpen met het vinden van de beste kerstmarkten in 2025! 🎄

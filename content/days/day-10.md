@@ -4,4 +4,4 @@ date: 2024-12-10
 draft: false
 ---
 
-⛄ AI translation tools can help you say 'Merry Christmas' in many languages! 🌍
+⛄ AI-vertalingstools kunnen je helpen om kerstgroeten in verschillende talen te verzenden! 🌍

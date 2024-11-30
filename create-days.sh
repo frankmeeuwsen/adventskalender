@@ -9,6 +9,34 @@ for day in {1..24}; do
     filename="$OUTPUT_DIR/day-$day.md"
     date=$(date -v2024y -v12m -v${day}d +%Y-%m-%d)
     
+    dutch_messages=(
+        "🎄 AI-tip voor vandaag: Laat AI je helpen met het plannen van je kerstavondmaal! 🍽️"
+        "🎅 Gebruik AI om persoonlijke kerstwensen te verzenden naar je familie en vrienden! 🎁"
+        "⛄ Leuk feit: AI kan je helpen met het vinden van de beste kerstmarkten in 2025! 🎄"
+        "🎄 AI-assistent: Ontdek de perfecte kerstcadeaus met behulp van AI! 🎁"
+        "🦌 Laat AI je helpen met het organiseren van je kerstfeestjes! 🎉"
+        "🎁 Maak unieke kerstkaarten met AI-gegenereerde afbeeldingen! 🎨"
+        "❄️ AI kan je helpen met het plannen van je winkelroute voor kerstcadeaus! 🛍️"
+        "🎅 Tip van vandaag: Gebruik AI om kerstquizzen te maken voor gezellige avonden! 🎮"
+        "🎄 Laat AI je helpen met het samenstellen van een kerstmuziekplaylist! 🎵"
+        "⛄ AI-vertalingstools kunnen je helpen om kerstgroeten in verschillende talen te verzenden! 🌍"
+        "🎁 Gebruik AI om een perfecte kerstdecoratie voor je huis te ontwerpen! 🏠"
+        "🦌 AI kan je helpen met het volgen van de Kerstman op kerstavond! 🗺️"
+        "🎄 Genereer festieve kleuren voor je kerstdecoraties met AI! 🎨"
+        "🎅 Laat AI je helpen met het plannen van een gezonde kerstmaaltijd! 🍽️"
+        "❄️ Gebruik AI om sprookjes te schrijven voor de kinderen tijdens de kerstdagen! 📚"
+        "🎁 AI kan je helpen met het beheren van je kerstbudget! 💰"
+        "⛄ Creëer unieke sneeuwvlokpatronen met AI voor je kersthandwerken! ❄️"
+        "🎄 Laat AI je helpen met het vinden van leuke kerstactiviteiten in jouw buurt! ⛄"
+        "🦌 Gebruik AI om festieve e-mailberichten te schrijven voor je contacten! 📧"
+        "🎅 AI kan je helpen met het stellen van realistische Nieuwjaarsvoornemens! 🎯"
+        "❄️ Genereer unieke kerstboomversieringen met AI! 🎄"
+        "🎁 Maak een kerstmuziekplaylist met AI op basis van je muzieksmaak! 🎵"
+        "⛄ Laat AI je helpen met het schrijven van dankbetuigingen voor je kerstcadeaus! ✍️"
+        "🎄 Sluit het jaar 2025 af met AI: Ontdek hoe AI je kan helpen in het nieuwe jaar! 🌟"
+    )
+
+
     # Array of festive AI messages
     messages=(
         "🎄 Today's AI tip: Let ChatGPT help you write personalized holiday greetings for your loved ones! ❄️"
@@ -36,7 +64,8 @@ for day in {1..24}; do
         "⛄ Let AI help you write thank-you notes for your holiday gifts! ✍️"
         "🎄 As we close our AI advent calendar, remember: AI is like holiday magic - use it wisely and creatively! 🌟"
     )
-    
+
+
     # Create markdown file with YAML front matter and message
     cat > "$filename" << EOF
 ---
@@ -45,7 +74,7 @@ date: $date
 draft: false
 ---
 
-${messages[$day-1]}
+${dutch_messages[$day-1]}
 EOF
 
     echo "Created $filename"

@@ -4,4 +4,4 @@ date: 2024-12-17
 draft: false
 ---
 
-⛄ Create AI-generated snowflake patterns for crafting! ❄️
+⛄ Creëer unieke sneeuwvlokpatronen met AI voor je kersthandwerken! ❄️

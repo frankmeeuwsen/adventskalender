@@ -4,4 +4,4 @@ date: 2024-12-15
 draft: false
 ---
 
-❄️ Use AI to write whimsical holiday stories for the little ones! 📚
+❄️ Gebruik AI om sprookjes te schrijven voor de kinderen tijdens de kerstdagen! 📚

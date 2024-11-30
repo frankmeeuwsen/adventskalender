@@ -4,4 +4,4 @@ date: 2024-12-21
 draft: false
 ---
 
-❄️ Generate unique Christmas tree decoration themes with AI! 🎄
+❄️ Genereer unieke kerstboomversieringen met AI! 🎄
