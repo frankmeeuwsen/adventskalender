@@ -4,4 +4,4 @@ date: 2024-12-02
 draft: false
 ---
 
-🎅 Gebruik AI om persoonlijke kerstwensen te verzenden naar je familie en vrienden! 🎁
+🎅 Wist je dat elke webwinkel machine learning gebruikt om je persoonlijke cadeau-ideeën te doen? 🎁

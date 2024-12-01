@@ -4,4 +4,6 @@ date: 2024-12-01
 draft: false
 ---
 
-🎄 AI-tip voor vandaag: Laat AI je helpen met het plannen van je kerstavondmaal! 🍽️
+# Welkom
+🎄 Elke dag een AI-tip rondom de feestmaand. Laat [Perplexity](https://www.perplexity.ai/search/give-me-8-classic-christmas-mo-2BRJ4MAaS6eIQ8llKWLaSA) je een lijst geven met klassieke kerstfilms.🍿  
+Tot morgen!

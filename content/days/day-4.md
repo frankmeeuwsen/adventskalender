@@ -4,4 +4,4 @@ date: 2024-12-04
 draft: false
 ---
 
-🎄 AI-assistent: Ontdek de perfecte kerstcadeaus met behulp van AI! 🎁
+🎄 Is het al tijd voor [Spotify Wrapped](https://www.androidplanet.nl/nieuws/spotify-wrapped-2024/)? 🎁

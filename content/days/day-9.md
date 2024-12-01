@@ -4,4 +4,4 @@ date: 2024-12-09
 draft: false
 ---
 
-🎄 Laat AI je helpen met het samenstellen van een kerstmuziekplaylist! 🎵
+🎄 Met [deze gratis tool](https://theresanaiforthat.com/@niltonpjr/festive-christmas-village/?) kun je eenvoudig feestelijke afbeeldingen maken van kerstdorpjes. 🏠

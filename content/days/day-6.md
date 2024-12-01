@@ -4,4 +4,4 @@ date: 2024-12-06
 draft: false
 ---
 
-🎁 Maak unieke kerstkaarten met AI-gegenereerde afbeeldingen! 🎨
+🎄 AI-assistent: Ontdek de [leukste kerstcadeaus](https://www.celebrateally.com/holidays/gift) met behulp van AI! 🎁

@@ -4,4 +4,4 @@ date: 2024-12-10
 draft: false
 ---
 
-⛄ AI-vertalingstools kunnen je helpen om kerstgroeten in verschillende talen te verzenden! 🌍
+⛄ In ChatGPT kun je met de [Christmas Music generator](https://chatgpt.com/g/g-FEMeyjdqL-christmas-music) allerlei tips voor playlists krijgen 🌍

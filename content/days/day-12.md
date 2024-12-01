@@ -4,4 +4,4 @@ date: 2024-12-12
 draft: false
 ---
 
-🦌 AI kan je helpen met het volgen van de Kerstman op kerstavond! 🗺️
+🤖 Een AI assistent kan je helpen met de planning van [je kerstavonden](https://www.microsoft.com/en-us/microsoft-365-life-hacks/everyday-ai/plan-christmas-dinner-with-ai). 🍽️

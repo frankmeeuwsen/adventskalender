@@ -1,6 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
     const doors = document.querySelectorAll('.door');
-    const today = new Date();
+
+    // Check for secret parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const isSecretMode = urlParams.get('secret') === 'true';
+
+    // Set today's date, with override for secret mode
+    const today = isSecretMode ? new Date('2024-12-25') : new Date();
     today.setHours(0, 0, 0, 0);
 
     // Create modal overlay

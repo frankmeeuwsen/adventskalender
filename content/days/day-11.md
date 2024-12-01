@@ -4,4 +4,4 @@ date: 2024-12-11
 draft: false
 ---
 
-🎁 Gebruik AI om een perfecte kerstdecoratie voor je huis te ontwerpen! 🏠
+🍽️ Is het al tijd om na te denken over je kerstmaaltijd? De [app van Albert Heijn](https://www.ah.nl/over-ah/app) heeft nu AI-powered gerechten tips. 🍗

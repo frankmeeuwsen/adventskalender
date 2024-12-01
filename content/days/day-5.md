@@ -4,4 +4,4 @@ date: 2024-12-05
 draft: false
 ---
 
-🦌 Laat AI je helpen met het organiseren van je kerstfeestjes! 🎉
+🦌 Laat AI je assisteren (niet compleet overnemen!) met het organiseren van [je kerstfeestjes](https://partyplanr.co.uk/)! 🎉
