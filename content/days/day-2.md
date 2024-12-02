@@ -4,4 +4,4 @@ date: 2024-12-02
 draft: false
 ---
 
-🎅 Wist je dat elke webwinkel machine learning gebruikt om je persoonlijke cadeau-ideeën te doen? 🎁
+⛄ Maak [unieke sneeuwvlokken](https://flux-image.com/generator/snowflakes) met AI voor je kerstkaarten! ❄️
