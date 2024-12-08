@@ -4,4 +4,4 @@ date: 2024-12-15
 draft: false
 ---
 
-❄️ De 25 beste prompts voor AI [gegenereerde kerstafbeeldingen](https://openart.ai/blog/post/stable-diffusion-prompts-for-christmas). 📚
+❄️ Met Suno maak je je eigen Christmas Carol. [Voorbeelden genoeg](https://suno.com/style/christmas%20carol)! 🎶
