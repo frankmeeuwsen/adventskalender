@@ -4,4 +4,4 @@ date: 2024-12-13
 draft: false
 ---
 
-🎄 Genereer festieve kleuren voor je kerstdecoraties met AI! 🎨
+🎄 Met [Canva Magic Studio](https://www.canva.com/magic/) laat je samen met AI de mooiste kerstafbeeldingen maken 🎨

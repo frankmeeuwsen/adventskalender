@@ -4,4 +4,4 @@ date: 2024-12-22
 draft: false
 ---
 
-🎁 Maak een kerstmuziekplaylist met AI op basis van je muzieksmaak! 🎵
+🎁 Laat AI je huis inrichten met Kerstmis. [Een serie op TikTok](https://www.tiktok.com/discover/asked-ai-to-decorate-my-house-for-christmas). 🏠

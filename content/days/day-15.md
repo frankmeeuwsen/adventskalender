@@ -4,4 +4,4 @@ date: 2024-12-15
 draft: false
 ---
 
-❄️ Gebruik AI om sprookjes te schrijven voor de kinderen tijdens de kerstdagen! 📚
+❄️ De 25 beste prompts voor AI [gegenereerde kerstafbeeldingen](https://openart.ai/blog/post/stable-diffusion-prompts-for-christmas). 📚

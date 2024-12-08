@@ -4,4 +4,4 @@ date: 2024-12-16
 draft: false
 ---
 
-🎁 AI kan je helpen met het beheren van je kerstbudget! 💰
+🎁 Maak een [Coca Cola snowglobe](https://www.coca-cola.com/us/en/offerings/christmas/createrealmagic) met AI 🥤
